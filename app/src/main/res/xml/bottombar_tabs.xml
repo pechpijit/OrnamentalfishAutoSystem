@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_setting"
+        icon="@drawable/ic_settings_white_24dp"
+        title="Setting" />
+    <tab
+        id="@+id/tab_status"
+        icon="@drawable/ic_settings_input_svideo_white_24dp"
+        title="Dashboard" />
+    <tab
+        id="@+id/tab_report"
+        icon="@drawable/ic_description_white_24dp"
+        title="Report" />
+</tabs>

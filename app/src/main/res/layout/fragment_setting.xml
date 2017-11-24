@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.supatbaingam.ornamentalfishautosystem.fragment.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_set_sizefood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าปริมาณอาหาร"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_set_sizefish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าจำนวนปลา"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_set_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าตู้ปลา"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_set_fish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าข้อมูลปลา"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_set_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าการให้อาหาร"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/btn_set_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ตั้งค่าเปลี่ยนน้ำ"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+</FrameLayout>
